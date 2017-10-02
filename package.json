@@ -13,8 +13,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "babel": {
+    "presets": [
+      ["latest", { "modules": false }],
+      "react"
+    ]
+  },
   "bugs": {
     "url": "https://github.com/mehdikbj/course-api/issues"
   },
-  "homepage": "https://github.com/mehdikbj/course-api#readme"
+  "homepage": "https://github.com/mehdikbj/course-api#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  }
 }
