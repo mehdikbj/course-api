@@ -9,7 +9,7 @@ const TARGET = process.env.npm_lifecycle_event;
 
 var common = module.exports = {
     entry: [
-        './src/main/scripts/main.js',
+        './src/main/scripts/index.js',
     ],
     output: {
         path: PATHS.output,
